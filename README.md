@@ -87,13 +87,13 @@
 * mapDispatchToProps for this action
 * Determine which props to map to based on the props that are already coded into the SearchBox component
 
-### AppContainer.js
+### AppContainer.js the same like search box container
 * import App
 * import action `loadMyMovieList`
 * mapStateToProps for props `searchResults` and `myMovieList` to state of the same name
 * mapDisptachToProps for `loadMyMovieList`
 
-### ListToggleContainer
+### ListToggleContainer ame like search box container
 * import ListToggle
 * import action `saveMyMovie` and `removeMyMovie`
 * mapDisptachToProps for `saveMyMovie` and `removeMyMovie`
@@ -104,7 +104,7 @@
 * Add onChange to the input element
 * on change setState for searchTerm to the value from the input
 
-### Item.js
+### //Item.js
 * Switch out use of ListToggle for use of ListToggleContainer
 
 ### App.js
@@ -112,7 +112,7 @@
 * Switch out use of SearchBox for use of SearchBoxContainer
 * Add PropTypes for searchResults and myMovieList
 
-### index.js
+//### index.js
 * Switch out use of App for AppContainer
 
 ### Points
